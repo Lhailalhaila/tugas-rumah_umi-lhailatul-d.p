@@ -85,3 +85,7 @@ console.log("--- Uji Soal 5 ---");
 console.log(hargaSetelahDiskon(250000)); // 200000
 console.log(hargaSetelahDiskon(100000)); // 90000
 console.log(hargaSetelahDiskon(75000));  // 75000
+const themeToggle = document.getElementById('theme-toggle');
+const body = document.body;
+
+

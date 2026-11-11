@@ -261,4 +261,50 @@ footer a {
   .hero h2 {
     font-size: 2.75rem;
   }
+
+  /* Tambahkan align-items: center pada wadah menumu */
+nav, header ul {
+  display: flex;
+  align-items: center; /* Ini yang membuat tombol sejajar tengah dengan teks menu */
+  list-style: none;
 }
+
+/* =========================================================
+   SOLUSI PAKSA MODE GELAP UNTUK SEMUA ELEMEN HALAMAN
+   ========================================================= */
+
+html.dark-mode,
+body.dark-mode,
+body.dark-mode main,
+body.dark-mode section,
+body.dark-mode article {
+  background-color: #0f172a !important;
+  background: #0f172a !important;
+  color: #f8fafc !important;
+}
+
+/* Mengubah kotak putih (Tentang Saya, Proyek, Kalkulator, dll) */
+body.dark-mode div[class*="card"],
+body.dark-mode div[class*="box"],
+body.dark-mode div[class*="tentang"],
+body.dark-mode div[class*="about"],
+body.dark-mode div[class*="container"],
+body.dark-mode .kartu {
+  background-color: #1e293b !important;
+  background: #1e293b !important;
+  color: #e2e8f0 !important;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4) !important;
+}
+
+/* Mengubah semua teks judul & paragraf menjadi putih/terang */
+body.dark-mode h1,
+body.dark-mode h2,
+body.dark-mode h3,
+body.dark-mode p,
+body.dark-mode li,
+body.dark-mode label {
+  color: #f1f5f9 !important;
+}
+
+
+
