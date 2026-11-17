@@ -306,5 +306,52 @@ body.dark-mode label {
   color: #f1f5f9 !important;
 }
 
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f3f7f4;
+  color: #333;
+  max-width: 700px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+.kartu {
+  background-color: #ffffff;
+  border: 1px solid #d4e3d8;
+  border-radius: 8px;
+  padding: 24px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.03);
+}
+
+h2 {
+  margin-top: 0;
+  font-size: 1.25rem;
+}
+
+.subjudul {
+  color: #666;
+  font-size: 0.9rem;
+}
+
+#daftar-repo a {
+  color: #c94a4a;
+  text-decoration: none;
+}
+
+#daftar-repo a:hover {
+  text-decoration: underline;
+}
+
+details {
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+summary {
+  font-weight: 500;
+  margin-bottom: 6px;
+}
+
 
 

@@ -1,0 +1,17 @@
+[
+  {
+    "nama": "Portofolio Web",
+    "deskripsi": "Website profil pribadi menggunakan HTML, CSS, dan JavaScript.",
+    "tahun": 2026
+  },
+  {
+    "nama": "RFID Absen",
+    "deskripsi": "Sistem pencatat kehadiran siswa otomatis berbasis kartu RFID.",
+    "tahun": 2026
+  },
+  {
+    "nama": "Website Sekolah",
+    "deskripsi": "Halaman informasi kegiatan dan profil sekolah.",
+    "tahun": 2025
+  }
+]
