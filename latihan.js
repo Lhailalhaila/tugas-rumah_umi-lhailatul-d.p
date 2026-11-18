@@ -85,7 +85,8 @@ if (tombolTema) {
 }
 
 const statusRepo = document.getElementById("status-repo");
-const daftarRepo = document.getElementById("daftar-repo");
+const daftarRepo = document.getElementById("daftar-repo"); 
+
 
 // Ganti dengan username GitHub Anda
 const username = "Lhailalhaila";
@@ -118,10 +119,11 @@ async function ambilRepo() {
 
       li.appendChild(link);
       daftarRepo.appendChild(li);
+      daftarRepo.textContent = "Tampilkan Repositori"
     });
   } catch (error) {
-    statusRepo.textContent = "Gagal memuat repositori.";
-    console.error(error);
+    statusRepo.textContent = "Daftar repositori ditampilkan kembali";
+  console.error(error);
   }
 }
 
